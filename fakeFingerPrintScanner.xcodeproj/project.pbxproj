@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEC5EE6A151C5E8E00444FEC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC5EE69151C5E8E00444FEC /* UIKit.framework */; };
+		FEC5EE6C151C5E8E00444FEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC5EE6B151C5E8E00444FEC /* Foundation.framework */; };
+		FEC5EE6E151C5E8E00444FEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC5EE6D151C5E8E00444FEC /* CoreGraphics.framework */; };
+		FEC5EE74151C5E8E00444FEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEC5EE72151C5E8E00444FEC /* InfoPlist.strings */; };
+		FEC5EE76151C5E8E00444FEC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC5EE75151C5E8E00444FEC /* main.m */; };
+		FEC5EE7A151C5E8E00444FEC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC5EE79151C5E8E00444FEC /* AppDelegate.m */; };
+		FEC5EE7D151C5E8E00444FEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC5EE7C151C5E8E00444FEC /* ViewController.m */; };
+		FEC5EE80151C5E8E00444FEC /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC5EE7E151C5E8E00444FEC /* ViewController_iPhone.xib */; };
+		FEC5EE83151C5E8E00444FEC /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEC5EE81151C5E8E00444FEC /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FEC5EE65151C5E8E00444FEC /* fakeFingerPrintScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fakeFingerPrintScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEC5EE69151C5E8E00444FEC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FEC5EE6B151C5E8E00444FEC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FEC5EE6D151C5E8E00444FEC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FEC5EE71151C5E8E00444FEC /* fakeFingerPrintScanner-Info.plist */ = {isa = PBXFileReference; path = "fakeFingerPrintScanner-Info.plist"; sourceTree = "<group>"; };
+		FEC5EE73151C5E8E00444FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FEC5EE75151C5E8E00444FEC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEC5EE77151C5E8E00444FEC /* fakeFingerPrintScanner-Prefix.pch */ = {isa = PBXFileReference; path = "fakeFingerPrintScanner-Prefix.pch"; sourceTree = "<group>"; };
+		FEC5EE78151C5E8E00444FEC /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEC5EE79151C5E8E00444FEC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEC5EE7B151C5E8E00444FEC /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		FEC5EE7C151C5E8E00444FEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEC5EE7F151C5E8E00444FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FEC5EE82151C5E8E00444FEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEC5EE62151C5E8E00444FEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC5EE6A151C5E8E00444FEC /* UIKit.framework in Frameworks */,
+				FEC5EE6C151C5E8E00444FEC /* Foundation.framework in Frameworks */,
+				FEC5EE6E151C5E8E00444FEC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEC5EE5A151C5E8E00444FEC = {
+			isa = PBXGroup;
+			children = (
+				FEC5EE6F151C5E8E00444FEC /* fakeFingerPrintScanner */,
+				FEC5EE68151C5E8E00444FEC /* Frameworks */,
+				FEC5EE66151C5E8E00444FEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEC5EE66151C5E8E00444FEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEC5EE65151C5E8E00444FEC /* fakeFingerPrintScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEC5EE68151C5E8E00444FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC5EE69151C5E8E00444FEC /* UIKit.framework */,
+				FEC5EE6B151C5E8E00444FEC /* Foundation.framework */,
+				FEC5EE6D151C5E8E00444FEC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEC5EE6F151C5E8E00444FEC /* fakeFingerPrintScanner */ = {
+			isa = PBXGroup;
+			children = (
+				FEC5EE78151C5E8E00444FEC /* AppDelegate.h */,
+				FEC5EE79151C5E8E00444FEC /* AppDelegate.m */,
+				FEC5EE7B151C5E8E00444FEC /* ViewController.h */,
+				FEC5EE7C151C5E8E00444FEC /* ViewController.m */,
+				FEC5EE7E151C5E8E00444FEC /* ViewController_iPhone.xib */,
+				FEC5EE81151C5E8E00444FEC /* ViewController_iPad.xib */,
+				FEC5EE70151C5E8E00444FEC /* Supporting Files */,
+			);
+			path = fakeFingerPrintScanner;
+			sourceTree = "<group>";
+		};
+		FEC5EE70151C5E8E00444FEC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEC5EE71151C5E8E00444FEC /* fakeFingerPrintScanner-Info.plist */,
+				FEC5EE72151C5E8E00444FEC /* InfoPlist.strings */,
+				FEC5EE75151C5E8E00444FEC /* main.m */,
+				FEC5EE77151C5E8E00444FEC /* fakeFingerPrintScanner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEC5EE64151C5E8E00444FEC /* fakeFingerPrintScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEC5EE86151C5E8E00444FEC /* Build configuration list for PBXNativeTarget "fakeFingerPrintScanner" */;
+			buildPhases = (
+				FEC5EE61151C5E8E00444FEC /* Sources */,
+				FEC5EE62151C5E8E00444FEC /* Frameworks */,
+				FEC5EE63151C5E8E00444FEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fakeFingerPrintScanner;
+			productName = fakeFingerPrintScanner;
+			productReference = FEC5EE65151C5E8E00444FEC /* fakeFingerPrintScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEC5EE5C151C5E8E00444FEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = FEC5EE5F151C5E8E00444FEC /* Build configuration list for PBXProject "fakeFingerPrintScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEC5EE5A151C5E8E00444FEC;
+			productRefGroup = FEC5EE66151C5E8E00444FEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEC5EE64151C5E8E00444FEC /* fakeFingerPrintScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEC5EE63151C5E8E00444FEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC5EE74151C5E8E00444FEC /* InfoPlist.strings in Resources */,
+				FEC5EE80151C5E8E00444FEC /* ViewController_iPhone.xib in Resources */,
+				FEC5EE83151C5E8E00444FEC /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEC5EE61151C5E8E00444FEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC5EE76151C5E8E00444FEC /* main.m in Sources */,
+				FEC5EE7A151C5E8E00444FEC /* AppDelegate.m in Sources */,
+				FEC5EE7D151C5E8E00444FEC /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEC5EE72151C5E8E00444FEC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC5EE73151C5E8E00444FEC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FEC5EE7E151C5E8E00444FEC /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC5EE7F151C5E8E00444FEC /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FEC5EE81151C5E8E00444FEC /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEC5EE82151C5E8E00444FEC /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEC5EE84151C5E8E00444FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEC5EE85151C5E8E00444FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEC5EE87151C5E8E00444FEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fakeFingerPrintScanner/fakeFingerPrintScanner-Prefix.pch";
+				INFOPLIST_FILE = "fakeFingerPrintScanner/fakeFingerPrintScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FEC5EE88151C5E8E00444FEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fakeFingerPrintScanner/fakeFingerPrintScanner-Prefix.pch";
+				INFOPLIST_FILE = "fakeFingerPrintScanner/fakeFingerPrintScanner-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEC5EE5F151C5E8E00444FEC /* Build configuration list for PBXProject "fakeFingerPrintScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC5EE84151C5E8E00444FEC /* Debug */,
+				FEC5EE85151C5E8E00444FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEC5EE86151C5E8E00444FEC /* Build configuration list for PBXNativeTarget "fakeFingerPrintScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEC5EE87151C5E8E00444FEC /* Debug */,
+				FEC5EE88151C5E8E00444FEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEC5EE5C151C5E8E00444FEC /* Project object */;
+}
